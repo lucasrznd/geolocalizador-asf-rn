@@ -1,7 +1,7 @@
 import { View, Text, Image, TextInput, TouchableOpacity } from 'react-native'
 import React from 'react'
 import { StatusBar } from 'expo-status-bar'
-import Animated, { FadeIn, FadeInDown, FadeInUp, FadeOut } from 'react-native-reanimated'
+import Animated, { FadeInDown, FadeInUp } from 'react-native-reanimated'
 import { useNavigation } from '@react-navigation/native'
 
 export default function SignupScreen() {
